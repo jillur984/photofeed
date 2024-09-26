@@ -15,6 +15,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Navbar/>
         <div className="container py-4 lg:py-8">{children}</div>
+        <div id="modal-root-content"/>
       </body>
     </html>
   );
